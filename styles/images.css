@@ -1,0 +1,93 @@
+/* Buttons */
+
+.icon-search {background-image: url(../images/search.svg); }
+.icon-share {background-image: url(../images/share.svg); }
+.icon-tags {background-image: url(../images/tags.svg); }
+.icon-feed {background-image: url(../images/feed.svg); }
+.icon-add {background-image: url(../images/add.svg); }
+.icon-feedback {background-image: url(../images/feedback.svg); }
+.icon-mail {background-image: url(../images/mail.svg); }
+.icon-phone {background-image: url(../images/phone.svg); }
+.icon-profile {background-image: url(../images/profile.svg); }
+
+.icon-code {background-image: url(../images/code.svg); }
+.icon-layout {background-image: url(../images/layout.svg); }
+.icon-colors {background-image: url(../images/colors.svg); }
+.icon-layer {background-image: url(../images/layer.svg); }
+.icon-presentation {background-image: url(../images/presentation.svg); }
+.icon-support {background-image: url(../images/support.svg); }
+
+/* Box - Social */
+
+.facebook { background-image: url(../images/icons/facebook.svg); }
+.twitter { background-image: url(../images/icons/twitter.svg); }
+.youtube { background-image: url(../images/icons/youtube.svg); }
+.googleplus { background-image: url(../images/icons/googleplus.svg); }
+.grooveshark { background-image: url(../images/icons/grooveshark.svg); }
+.vine { background-image: url(../images/icons/vine.svg); }
+.instagram { background-image: url(../images/icons/instagram.svg); }
+.flickr { background-image: url(../images/icons/flickr.svg); }
+.skype { background-image: url(../images/icons/skype.svg); }
+.spotify { background-image: url(../images/icons/spotify.svg); }
+.soundcloud { background-image: url(../images/icons/soundcloud.svg); }
+.pinterest { background-image: url(../images/icons/pinterest.svg); }
+.xbox { background-image: url(../images/icons/xbox.svg); }
+.dribbble { background-image: url(../images/icons/dribbble.svg); }
+.foursquare { background-image: url(../images/icons/foursquare.svg); }
+.linkedin { background-image: url(../images/icons/linkedin.svg); }
+.github { background-image: url(../images/icons/github.svg); }
+.deviantart { background-image: url(../images/icons/deviantart.svg); }
+.snapchat { background-image: url(../images/icons/snapchat.svg); }
+.behance { background-image: url(../images/icons/behance.svg); }
+.twitch { background-image: url(../images/icons/twitch.svg); }
+.vimeo { background-image: url(../images/icons/vimeo.svg); }
+.slideshare { background-image: url(../images/icons/slideshare.svg); }
+.aboutme { background-image: url(../images/icons/aboutme.svg); }
+.stumbleupon { background-image: url(../images/icons/stumbleupon.svg); }
+.disqus { background-image: url(../images/icons/disqus.svg); }
+.myspace { background-image: url(../images/icons/myspace.svg); }
+.reddit { background-image: url(../images/icons/reddit.svg); }
+.rdio { background-image: url(../images/icons/rdio.svg); }
+.flipboard { background-image: url(../images/icons/flipboard.svg); }
+.codepen { background-image: url(../images/icons/codepen.svg); }
+.ello { background-image: url(../images/icons/ello.svg); }
+.medium { background-image: url(../images/icons/medium.svg); }
+.tumblr { background-image: url(../images/icons/tumblr.svg); }
+.lattes { background-image: url(../images/icons/lattes.svg); }
+
+/* Box - Projects */
+
+.vydeon { background-image: url(../images/projects/vydeon.svg); }
+.vydeon:hover, .vydeon:focus { background-image: url(../images/projects/vydeon_.svg); background-color: #ff5967; }
+.inblug { background-image: url(../images/projects/inblug.svg); }
+.favss { background-image: url(../images/projects/favss.svg); }
+.favss:hover, .favss:focus { background-image: url(../images/projects/favss_.svg); background-color: #ffaf40; }
+.appdow { background-image: url(../images/projects/appdow.svg); }
+.appdow:hover, .appdow:focus { background-image: url(../images/projects/appdow_.svg); background-color: #5082e5; }
+.tecscyfi { background-image: url(../images/projects/tecscyfi.svg); }
+.tecscyfi:hover, .tecscyfi:focus { background-image: url(../images/projects/tecscyfi_.svg); background-color: #33ccbf; }
+.worlfeed { background-image: url(../images/projects/worlfeed.svg); }
+.worlfeed:hover, .worlfeed:focus { background-image: url(../images/projects/worlfeed_.svg); background-color: #ff794d; }
+.deslike { background-image: url(../images/projects/deslike.svg); }
+.deslike:hover, .deslike:focus { background-image: url(../images/projects/deslike_.svg); background-color: #6db0f2; }
+.gamezun { background-image: url(../images/projects/gamezun.svg); }
+.gamezun:hover, .gamezun:focus { background-image: url(../images/projects/gamezun_.svg); background-color: #68bf60; }
+.muzyc { background-image: url(../images/projects/muzyc.svg); }
+.muzyc:hover, .muzyc:focus { background-image: url(../images/projects/muzyc_.svg); background-color: #f279ac; }
+.camram { background-image: url(../images/projects/camram.svg); }
+.camram:hover, .camram:focus { background-image: url(../images/projects/camram_.svg);   background-color: #7870cc; }
+.localy { background-image: url(../images/projects/localy.svg); }
+.localy:hover, .localy:focus { background-image: url(../images/projects/localy_.svg); }
+
+/* Backgrounds */
+
+.green { background-color: #27ae60; }
+.green-2 { background-color: #2ecc71; }
+.blue { background-color: #3498db;}
+.blue-2 { background-color: #2980b9; }
+.red { background-color: red; }
+.yellow { background-color: #f1c40f; }
+.purple { background-color: rgba(181,0,191,1); }
+.orange { background-color:#FF5C00; }
+.pink { background-color:#ff0052; }
+.gray { background-color: #666; }
