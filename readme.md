@@ -1,6 +1,6 @@
-# [lucasmauess.github.io](http://lucasmauess.github.io/)
+# [nacuia.com.br](http://nacuia.com.br/)
 
-My personal page hosted directly from GitHub repository.
+Website da Revista Cultural na Cuia.
 
 ## Purpose
 
@@ -23,12 +23,3 @@ Copyright © 2015 Lucas Mauess.
 ## Note
 
 This repository is named as *lucasmauess.gihub.io* because it follows a naming scheme, so that all its content can be interpreted by GitHub as a website (or rather, in a "User/Organization Page") in accordance with documentation of the GitHub Pages.
-
-## How to create pages on GitHub?
-
-Very simple! All information to you need, can be found in these links:
-
-* [GitHub Pages](http://pages.github.com/)
-* [GitHub Pages Basics](http://help.github.com/categories/github-pages-basics)
-* [GitHub Pages Features](http://help.github.com/categories/github-pages-features)
-* [GitHub Help](http://help.github.com/)
