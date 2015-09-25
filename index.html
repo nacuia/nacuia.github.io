@@ -63,7 +63,7 @@
 
     <header role="banner">
 
-        <h1><a href="index.html"><figure></figure>Na Cuia </a></h1>
+        <h1><a href="index.html"><figure></figure></a></h1>
 
         <input type="checkbox" id="control-nav"/>
         <label for="control-nav" class="control-nav"></label>
@@ -76,12 +76,11 @@
 
         <nav role="navigation">
             <ul class="nav-list">
-            	<li><a href="index.html" class="active">NA CUIA</a></li>
- 	            <li><a href="blog.html">MATÉRIAS</a></li>
- 	            <li><a href="services.html">EDIÇÕES</a></li>
-                <li><a href="projects.html">EQUIPE</a></li>
-                <li><a href="contact.html">CONTATO</a></li>
-                <li><a href="about.html">SOBRE</a></li>
+            	<li><a href="index.html" class="active">Revista Cultural NA CUIA</a></li>
+ 	            <li><a href="#">EDIÇÕES</a></li>
+                <li><a href="#">EQUIPE</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">SOBRE</a></li>
             </ul>
         </nav>
         
@@ -92,7 +91,7 @@
     <section class="bg-acai">
 
         <div class="card">
-    		<h2 id="nome-grande">Revista Cultural <span>Na Cuia</span></h2>
+    		<h2 id="nome-grande">Revista Cultural <figure title="Na Cuia"></figure></h2>
     	</div>
 
     	<div class="card">
@@ -175,14 +174,14 @@
 
 		<div class="people">
 				<a href="#" target="_blank" class="people-bg">
-					<div> <h5>Juliana Araújo</h5> <h6>Editora-chefe / Reporter</h6> </div>
+					<div> <h5>Juliana Araújo</h5> <h6>Editora-chefe / Repórter</h6> </div>
 				</a>
 			<figure style="background-image: url('images/people/juliana.jpg');"></figure>
 		</div>
 
 		<div class="people">
 			<a href="#" target="_blank" class="people-bg">
-				<div> <h5>Matheus Butelho</h5> <h6>Chefe de Redação / Reporter</h6> </div>
+				<div> <h5>Matheus Butelho</h5> <h6>Chefe de Redação / Repórter</h6> </div>
 			</a>
 			<figure style="background-image: url('images/people/matheus.jpg');"></figure>
 		</div>
@@ -217,6 +216,34 @@
 
 		<div class="people">
 			<a href="#" target="_blank" class="people-bg">
+				<div> <h5>Bianca Brandão</h5> <h6>Direção de Fotografia / Repórter</h6> </div>
+			</a>
+			<figure style="background-image: url('images/people/bianca.jpg');"></figure>
+		</div>
+
+		<div class="people">
+			<a href="#" target="_blank" class="people-bg">
+				<div> <h5>Madylene Barata</h5> <h6>Repórter</h6> </div>
+			</a>
+			<figure style="background-image: url('images/people/madylene.jpg');"></figure>
+		</div>
+
+		<div class="people">
+			<a href="#" target="_blank" class="people-bg">
+				<div> <h5>Maria Paula Malheiros</h5> <h6>Repórter</h6> </div>
+			</a>
+			<figure style="background-image: url('images/people/maria.jpg');"></figure>
+		</div>
+
+		<div class="people">
+			<a href="#" target="_blank" class="people-bg">
+				<div> <h5>Vitória Mendes</h5> <h6>Repórter</h6> </div>
+			</a>
+			<figure style="background-image: url('images/people/vitoria.jpg');"></figure>
+		</div>
+
+		<div class="people">
+			<a href="#" target="_blank" class="people-bg">
 				<div> <h5>Lucas Mauess</h5> <h6>Desenvolvimento Web</h6> </div>
 			</a>
 			<figure style="background-image: url('images/people/lucas.jpg');"></figure>
@@ -243,9 +270,23 @@
     <section class="bg-img-full">
       
         <h3 class="clr-acai">Contato</h3>
-   
         <p class="description clr-acai">Mande sugestões, dicas, criticas e o que der na telha. Nos queremos ouvir você!</p>
     
+		<!-- Formspree -->
+	    <form role="form" action="//formspree.io/lucasmauess@gmail.com" method="post">
+	        <input type="text" name="name" placeholder="NOME" required/>
+	        <input type="email" name="_replyto" placeholder="EMAIL" required/>
+	        <input type="tel" placeholder="TELEFONE" pattern="[0-9]" title="Only numbers"/>
+	        <input type="text" placeholder="ASSUNTO"/>
+	        <textarea name="text" placeholder="MENSAGEM" required></textarea>
+	        <input type="submit" value="ENVIAR"/>
+	        <input type="hidden" name="_subject" value="Contact [lucasmauess.github.io]"/>
+	        <input type="hidden" name="_next" value="thanks.html" />
+	        <input type="text" name="_gotcha" style="display:none"/>
+	    </form>
+
+
+
         <img src="images/devices2.png" alt="Your website in all devices" class="img-devices">
         
         <a href="services.html" class="btn-more">See all services</a>

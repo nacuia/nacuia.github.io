@@ -86,12 +86,10 @@ header h1 a span {
 header figure {
   float: left;
   background: transparent url(../images/cuia.png) no-repeat center;
-  background-size: 80px;
-  height: 80px;
-  width: 80px;
-  margin: 16px auto 26px;
-  border-radius: 50%;
-  border: 2px solid #aaa;
+  background-size: 54px;
+  height: 54px;
+  width: 54px;
+  margin: 0 26px 26px;
 }
 
 /* Navigation Bar */
@@ -156,8 +154,8 @@ input#control-nav {
 }
 .control-nav {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 28px;
+  top: 28px;
   display: block;
   width: 30px;
   padding: 8px 0;
@@ -274,10 +272,20 @@ a:hover, a:focus {
 /* Titles */
 
 h2 {
-  font: normal normal normal 116px/1.4em 'Florence', Arial, sans-serif;
+  float: left;
+  font: normal normal normal 90px/1.4em 'Florence', Arial, sans-serif;
   color: #fff;
   line-height: 1em;
   text-align: left;
+}
+
+h2 figure {
+  float: left;
+  background: #3D0626 url(../images/logo.png) no-repeat center;
+  background-size: auto 90px;
+  height: 100px;
+  width: 437px;
+  margin: 20px 0 0;
 }
 
 h2 span {
@@ -371,7 +379,7 @@ img {
 .description {
   max-width: 650px;
   color: #777;
-  font: 300 16px 'Roboto-Light';
+  font: 16px 'Roboto-Regular';
   text-transform: none;
   text-align: center;
   line-height: 26px;
@@ -405,9 +413,9 @@ img {
   max-width: 460px;
 }
 .card-text {
-  font: 300 17px 'Roboto-Light';
+  font: 300 16px 'Roboto-Light';
   color: #fff;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 
@@ -416,7 +424,7 @@ img {
 .card {
   display: inline-block;
   margin: 0 auto;
-  max-width: 680px;
+  max-width: 550px;
   box-sizing: border-box;
   padding: 40px 60px 30px;
   background-color: rgba(255, 255, 255, 0.0);
@@ -707,9 +715,10 @@ a.btn-more {
   letter-spacing: 1.5px;
 }
 a.btn-more:hover, a.btn-more:focus {
-  background-color: #555;
-  border: 1px solid #555;
-  color: #fff;
+  background-color: #FCEBB6;
+  border: 1px solid #FCEBB6;
+  color: #3D0626;
+  font: 14px 'Roboto-Bold';
 }
 
 /* Button Telephone */
@@ -764,9 +773,9 @@ a.btn-more:hover, a.btn-more:focus {
 .people {
   position: relative;
   display: inline-block;
-  width: 220px;
-  height: 220px;
-  margin: 0 10px 8px;
+  width: 200px;
+  height: 200px;
+  margin: 12px 12px;
   background-color: transparent;
   z-index: 1;
   border-radius: 50%;
@@ -1015,8 +1024,8 @@ form {
   max-width: 750px;
   width: 100%;
   height: auto;
-  background-color: transparent;
-  margin: 0 auto 20px;
+  background-color: #FCEBB6;
+  margin: 0 auto;
 }
 form input {
   width: 48%;
@@ -1030,10 +1039,10 @@ form input, form textarea {
   float: left;
   padding: 11px 2% 12px 2%;
   margin: 1%;
-  color: #777;
+  color: #3D0626;
   font: 300 16px 'Roboto-Light', Arial, sans-serif;
   background-color: transparent;
-  border: 1px solid #bbb;
+  border: 1px solid #3D0626;
   letter-spacing: 1px;
   box-sizing: border-box;
   transition: all 250ms ease-in-out;
