@@ -250,6 +250,10 @@ footer ul {
   list-style: none;
   margin: 5px;
 }
+footer ul li {
+    color: #FCEBB6;
+    font: 400 16px 'Roboto-Regular';
+}
 
 article {
 }
@@ -379,7 +383,7 @@ img {
 .description {
   max-width: 650px;
   color: #777;
-  font: 16px 'Roboto-Regular';
+  font: 16px 'Roboto-Light';
   text-transform: none;
   text-align: center;
   line-height: 26px;
@@ -478,6 +482,8 @@ img {
   background-color: #fff;
 }
 
+.clr-white { color: #fff; }
+
 .clr-acai { color: #3D0626; }
 .bg-acai { background-color: #3D0626; }
 .clr-ama { color: #FCEBB6; }
@@ -506,22 +512,23 @@ a.box {
 	display: inline-block;
   height: 116px;
   width: 116px;
-  margin: 4px;
+  margin: 4px 10px;
 	float: none;
 	padding: 0;
   text-decoration: none;
   font-size: 13px;
-  color: #777;
+  color: transparent;
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: 48px;
-  background-position: 50% 44%;
+  background-size: 54px;
+  background-position: 50% 50%;
   border: 2px solid transparent;
+  border-radius: 50%;
 }
 a.box:hover, a.box:focus {
-  background-color: transparent;
-  border-color: #999;
-  color: #666;
+  background-color: #FCEBB6;
+  border-color: transparent;
+  color: transparent;
 }
 a.box:active {
   border-color: #777;
