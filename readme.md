@@ -1,4 +1,4 @@
-# [nacuia.com.br](http://nacuia.com.br/)
+# [Revista Cultural Na Cuia](http://nacuia.com.br/)
 
 Site da Revista Cultural Na Cuia.
 
