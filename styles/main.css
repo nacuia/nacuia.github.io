@@ -375,7 +375,7 @@ img {
 .description {
   max-width: 650px;
   color: #777;
-  font: 16px 'Roboto-Light';
+  font: 16px 'Roboto-Regular';
   text-transform: none;
   text-align: center;
   line-height: 26px;
@@ -1082,14 +1082,14 @@ input[type="submit"] {
   display: inline-block;
   cursor: pointer;
   width: 120px;
-  height: 54px;
+  height: 46px;
   padding: 0;
   margin: 2% auto 0;
   text-align: center;
   background-color: #3D0626;
-  border: 1px solid #3D0626;
+  border: 2px solid #3D0626;
   line-height: 2px;
-  color: #FFFFFF;
+  color: #FCEBB6;
   font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   -webkit-transition: all .2s linear;
@@ -1099,9 +1099,9 @@ input[type="submit"] {
 }
 input[type="submit"]:hover, 
 input[type="submit"]:focus {
-  color: red;
+  color: #3D0626;
   background-color: transparent;
-  border: 1px solid #888;
+  border-color: #3D0626;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
