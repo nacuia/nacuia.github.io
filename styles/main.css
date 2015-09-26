@@ -95,7 +95,7 @@ header nav {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 200px;
+  width: 220px;
   background: #FCEBB6;
   overflow-x: auto;
   z-index: 2;
@@ -370,7 +370,6 @@ img {
   background-color: #3D0626;
   font-family: 'Roboto-Regular';
 }
-
 .description {
   max-width: 650px;
   color: #777;
@@ -382,7 +381,6 @@ img {
   padding: 10px 20px;
   background-color: transparent;
 }
-
 .card p {
   text-align: justify;
 }
@@ -412,7 +410,6 @@ img {
   color: #fff;
   line-height: 24px;
 }
-
 
 /* Containers */
 
@@ -481,7 +478,6 @@ img {
 .bg-ama { background-color: #FCEBB6; }
 
 .border-top { border-top: 2px dashed #FCE3A9; }
-
 
 .bg-img-full {
   background-image: url(../images/bg.png);
@@ -733,14 +729,13 @@ a.btn-more:hover, a.btn-more:focus {
   border: 1px solid #888;
 }
 
-
 /* Close Button for Navbar */
 
 .btn-close {
   display: block;
   position: absolute;
   margin: 0;
-  right: 210px;
+  right: 230px;
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -749,7 +744,7 @@ a.btn-more:hover, a.btn-more:focus {
 .close-line {
   height: 28px;
   width: 2px;
-  background-color: #fff;
+  background-color: #3D0626;
   position: absolute;
 }
 .one {
@@ -762,7 +757,6 @@ a.btn-more:hover, a.btn-more:focus {
   left: 23px;
   transform: rotate(-45deg)
 }
-
 
 /* People */
 
