@@ -839,6 +839,29 @@ a.btn-more:hover, a.btn-more:focus {
   border-radius: 50%;
 }
 
+/* Box - Money */
+
+#money {
+  float: left;
+  height: 220px;
+  width: 200px;
+  padding: 60px 40px 0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 23px;
+  color: #3D0626;
+  border: 1px solid #FCEBB6;
+  background-color: #FCEBB6;
+}
+#money:hover {
+  background-color: transparent;
+  color: #FCEBB6;
+  border-color: #FCEBB6;
+}
+#money span {
+  font-family: 'Roboto-Bold';
+}
+
 /* Box Tile */
 
 .tile {
