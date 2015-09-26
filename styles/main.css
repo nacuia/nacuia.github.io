@@ -1184,8 +1184,11 @@ option {
   .tile {
     width: 100%;
   }
+  .card p {
+    text-align: center;
+  }
   a.box-post {
-  height: auto;
+    height: auto;
   }
   form input, form textarea { 
     margin: 2% 1%;
