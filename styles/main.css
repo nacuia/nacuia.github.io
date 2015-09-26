@@ -1182,12 +1182,17 @@ option {
 
 }
 
-@media screen and (max-width: 500px) {
-  
-  section { width: 96%; padding: 4% 2%; }
+
+@media screen and (max-width: 750px) {
 
   h2 { font-size: 40px; }
   h2 figure { background-size: auto 50px; height: 60px; width: 100%; }
+
+}
+
+@media screen and (max-width: 500px) {
+  
+  section { width: 96%; padding: 4% 2%; }
 
   .people { height: 120px; width: 120px; }
   .people h5 { font-size: 16px; }
