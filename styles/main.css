@@ -128,10 +128,6 @@ header li a {
   padding-top: 2px;
   text-align: right;
 }
-header li a:hover {
-  background-color: #eee;
-  color: #555;
-}
 .nav-list, .nav-list li {
   width: 100%;
   float: left;
@@ -139,8 +135,8 @@ header li a:hover {
   position: relative;
 }
 header li a:hover, header li a:focus {
-  color: #fff;
-  background-color: #3C3C3C;
+  color: #3D0626;
+  background-color: #fff;
 }
 input#control-nav {
   visibility: hidden;
@@ -504,26 +500,25 @@ img {
 /* Box Social */
 
 a.box {
-	position: relative;
-	display: inline-block;
-  height: 116px;
-  width: 116px;
-  margin: 4px 10px;
-	float: none;
-	padding: 0;
+  position: relative;
+  display: inline-block;
+  height: 94px;
+  width: 94px;
+  margin: 0 10px;
+  float: none;
+  padding: 0;
   text-decoration: none;
   font-size: 13px;
   color: transparent;
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: 54px;
+  background-size: 48px;
   background-position: 50% 50%;
   border: 2px solid #3D0626;
   border-radius: 50%;
 }
 a.box:hover, a.box:focus {
   background-color: #FCEBB6;
-  border-color: #FCEBB6;
   color: transparent;
 }
 a.box:active {
@@ -535,7 +530,7 @@ a.box:active {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-	text-align: left;
+	text-align: center;
 	font-family: 'Roboto-Regular';
 	font-weight: 400;
   width: 80%;
@@ -859,9 +854,11 @@ a.btn-more:hover, a.btn-more:focus {
   -moz-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear;
+  border: 1px solid #3D0626;
 }
 .tile:hover, .tile:focus {
   background-color: rgba(0, 0, 0, 0.7);
+  border-color: #FCEBB6;
 }
 .tile-box {
   position: relative;
@@ -876,7 +873,7 @@ a.btn-more:hover, a.btn-more:focus {
   color: transparent;
 }
 .tile h5 {
-  font: 22px 'Roboto-Bold';
+  font: 24px 'Roboto-Medium';
   margin: 0;
   position: absolute;
   bottom: 20px;
@@ -918,7 +915,7 @@ a.btn-more:hover, a.btn-more:focus {
 #black:hover, #black:focus { background-color: #fff; }
 
 #grad { background-color: rgba(252, 235, 182, 0.36); }
-#grad:hover, #grad:focus { color: #FCE3A9; background-color: rgba(61, 6, 38, 0.83); }
+#grad:hover, #grad:focus { color: #FCE3A9; background-color: rgba(61, 6, 38, 0.9); }
     
 #gray { background: linear-gradient(135deg, rgba(31, 31, 31, 0.84) 0%,rgba(171, 171, 171, 0.84) 100%); }
 #gray:hover, #gray:focus { background-color: rgba(0, 0, 0, 0.7); }
@@ -1144,10 +1141,6 @@ option {
 
 @media screen and (max-width: 950px) {
 
-  .active {
-    color: #fff;
-    background-color: #555;
-  }
   a.box {
     background-size: 38px;
     background-position: 50% 40%;
