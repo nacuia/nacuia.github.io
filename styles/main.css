@@ -80,7 +80,6 @@ header h1 a {
   line-height: 130%;
 }
 header h1 a:hover, header h1 a:focus {
-  color: #FCEBB6;
   background-color: #fff;
 }
 header h1 a span {
@@ -1058,6 +1057,42 @@ input[type="submit"]:active {
   text-shadow: none;
 }
 
+/* Special Pages */
+
+.special-page h5 {
+  color: #FCEBB6;
+  font: italic 200 6em 'Roboto-Thin';
+  letter-spacing: 4px;
+  border: none;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.special-page h4 {
+  color: #fff;
+  font-size: 1.8em;
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  padding: 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.special-page h3 {
+  margin: 0 auto 30px;
+  max-width: 480px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-family: 'Roboto-Light';
+}
+.special-page section {
+  margin-top: 50px;
+}
+.special-page a.btn-more {
+  width: 120px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1216px) {
@@ -1116,6 +1151,10 @@ input[type="submit"]:active {
     width: 160px;
     padding: 50px 40px 10px;
     font-size: 20px;
+  }
+  .special-page h5 {
+    font-size: 3em;
+    margin: -6px auto 0px;
   }
 
 }
