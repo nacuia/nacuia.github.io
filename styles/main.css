@@ -402,7 +402,7 @@ img {
   width: 516px;
   height: 336px;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 0;
   border: 1px solid #3D0626;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -413,9 +413,9 @@ img {
 .featured div {
   position: absolute;
   float: left;
-  width: 220px;
-  height: 294px;
-  background-color: rgba(252, 235, 182, 0.36);
+  width: 240px;
+  height: 334px;
+  background-color: rgba(252, 235, 182, 0.3);
   z-index: 3;
 }
 .featured h3 {rgb(39, 4, 24)
@@ -445,15 +445,19 @@ img {
 .featured figure {
   position: relative;
   float: left;
-  width: 230px;
-  height: 294px;
-  background-size: 220px 294px;
+  width: 240px;
+  height: 334px;
+  margin: 0 16px 0 0;
+  background-size: 240px 334px;
   background-repeat: no-repeat;
   background-position: left;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  background-color: transparent;
+  background-color: #fff;
   z-index: 2;
+}
+.featured .margin-top {
+  margin-top: 20px;
 }
 
 .card {
@@ -600,7 +604,7 @@ img {
   width: 200px;
   height: 200px;
   margin: 12px 12px;
-  background-color: transparent;
+  background-color: #fff;
   z-index: 1;
   border-radius: 50%;
 }
@@ -609,7 +613,7 @@ img {
   float: left;
   height: 100%;
   width: 100%;
-  background-color: transparent;
+  background-color: rgba(255, 0, 148, 0.08);
   z-index: 3;
   border-radius: 50%;
   color: transparent;
@@ -637,6 +641,7 @@ img {
   font: 22px 'Roboto-Medium', Arial, sans-serif;
   text-transform: none;
   text-align: center;
+  letter-spacing: 1px;
   background-color: transparent;
   border: 0;
 }
@@ -661,6 +666,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
+  -webkit-filter: grayscale(100%);
   /*  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);  */
   border-radius: 50%;
@@ -911,7 +917,7 @@ a.box-post .cat:hover, a.box-post .cat:focus {
   text-decoration: none;
   z-index: 3;
   color: transparent;
-  background-color: rgba(252, 235, 182, 0.36);
+  background-color: rgba(252, 235, 182, 0.3);
   border: 1px solid #3D0626;
 }
 .tile a:hover, .tile a:focus { 
@@ -1061,32 +1067,30 @@ input[type="submit"]:active {
 
 .special-page h5 {
   color: #FCEBB6;
-  font: italic 200 6em 'Roboto-Thin';
+  font: italic 5em 'Neou';
   letter-spacing: 4px;
   border: none;
   max-width: 600px;
-  margin-bottom: 50px;
+  margin: 40px auto 50px;
 }
 .special-page h4 {
   color: #fff;
-  font-size: 1.8em;
-  font-family: 'Roboto-Regular';
-  font-weight: 400;
-  padding: 0px;
+  font: 1.8em 'Roboto-Light';
+  padding: 0px 20px;
+  margin: 6px auto;
   letter-spacing: 2px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 .special-page h3 {
   margin: 0 auto 30px;
-  max-width: 480px;
+  max-width: 440px;
   color: #fff;
-  font-size: 18px;
   line-height: 26px;
   text-align: center;
-  font-family: 'Roboto-Light';
+  font: 18px 'Roboto-Light';
 }
-.special-page section {
+.special-page {
   margin-top: 50px;
 }
 .special-page a.btn-more {
@@ -1132,17 +1136,15 @@ input[type="submit"]:active {
 @media screen and (max-width: 600px) {
 
   .featured {
-    width: 262px;
+    width: 242px;
     height: auto;
+    padding-bottom: 20px;
   }
   .featured h3, .featured span {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
-  }
-  .featured figure {
-    margin-bottom: 20px;
   }
   #money {
     float: none;
@@ -1161,7 +1163,7 @@ input[type="submit"]:active {
 
 @media screen and (max-width: 500px) {
   
-  section { width: 96%; padding: 4% 2%; }
+  section { width: 96%; padding: 4% 2% 10%; }
 
   .people { height: 120px; width: 120px; }
   .people h5 { font-size: 16px; }
