@@ -415,7 +415,7 @@ img {
   float: left;
   width: 240px;
   height: 334px;
-  background-color: rgba(252, 235, 182, 0.3);
+ /* background-color: rgba(252, 235, 182, 0.3);*/
   z-index: 3;
 }
 .featured h3 {rgb(39, 4, 24)
@@ -451,8 +451,8 @@ img {
   background-size: 240px 334px;
   background-repeat: no-repeat;
   background-position: left;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
   background-color: #fff;
   z-index: 2;
 }
@@ -466,7 +466,7 @@ img {
   max-width: 550px;
   box-sizing: border-box;
   padding: 40px 60px 30px;
-  background-color: rgba(255, 255, 255, 0.0);
+  /*background-color: rgba(255, 255, 255, 0.0);*/
 }
 .card p {
   font: 16px 'Roboto-Light';
@@ -917,7 +917,7 @@ a.box-post .cat:hover, a.box-post .cat:focus {
   text-decoration: none;
   z-index: 3;
   color: transparent;
-  background-color: rgba(252, 235, 182, 0.3);
+ /* background-color: rgba(252, 235, 182, 0.3);*/
   border: 1px solid #3D0626;
 }
 .tile a:hover, .tile a:focus { 
@@ -959,8 +959,8 @@ a.box-post .cat:hover, a.box-post .cat:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+/*  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
 }
 
 .bg-grad { background-color: rgba(252, 235, 182, 0.36); }
