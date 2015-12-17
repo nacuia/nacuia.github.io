@@ -613,7 +613,7 @@ img {
   float: left;
   height: 100%;
   width: 100%;
-  background-color: rgba(255, 0, 148, 0.08);
+  background-color: transparent;
   z-index: 3;
   border-radius: 50%;
   color: transparent;
@@ -666,8 +666,8 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
-  -webkit-filter: grayscale(100%);
-  /*  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
   filter: grayscale(100%);  */
   border-radius: 50%;
 }
