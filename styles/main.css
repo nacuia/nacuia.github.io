@@ -394,6 +394,11 @@ img {
 
 /* Containers */
 
+.container_people {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
 .featured {
   position: relative;
   float: none;
