@@ -11,7 +11,6 @@
   	<meta name="author" content="Revista Na Cuia">
 
   	<link href="styles/main.css" rel="stylesheet" type="text/css">
-  	<link href="styles/images.css" rel="stylesheet" type="text/css">
   	<link href="styles/header.css" rel="stylesheet" type="text/css">
 
     <link rel="shortcut icon" href="images/favicon.png">
@@ -64,24 +63,21 @@
 
         <a href="#inicio" id="logo" title="Revista Na Cuia"></a>
 
-        <input type="checkbox" id="control-nav"/>
-        <label for="control-nav" class="control-nav"></label>
+        <button id="menu-button" onclick="openMenu();"></button>
+        <button id="share-button" onclick="openShare();"></button>
 
-        <label for="control-nav" class="control-nav-close">
-        	<div id="close-button"></div>
-        </label>
-
-        <nav role="navigation">
-            <ul>
-            	<li><a href="#revista">Revista</a></li>
- 	            <li><a href="#edicoes">Edições</a></li>
-                <li><a href="#kuyera">Kuyera!</a></li>
-                <li><a href="#equipe">Equipe</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-
-            <a href="#" class="money">Apoie</a>
-        </nav>
+		<div class="layer-menu" class="close" onclick="closeMenu();">
+	        <nav role="navigation">
+	        	<button id="close-button" class="close" onclick="closeMenu();"></button>
+	            <ul>
+	            	<li><a href="#revista" class="close" onclick="closeMenu();">Revista</a></li>
+	 	            <li><a href="#edicoes" class="close" onclick="closeMenu();">Edições</a></li>
+	                <li><a href="#kuyera" class="close" onclick="closeMenu();">Kuyera!</a></li>
+	                <li><a href="#equipe" class="close" onclick="closeMenu();">Equipe</a></li>
+	                <li><a href="#contato" class="close" onclick="closeMenu();">Contato</a></li>
+	            </ul>
+	        </nav>
+        </div>
         
     </header>
 
@@ -95,59 +91,45 @@
 		<div class="home">
 
 			<div>
-				<div class="home-logo"></div>
+				<img src="images/na-cuia-logo.svg" alt="logo revista cultural na cuia">
 			</div>
 			
 			<div>
 				<div class="home-container"> 
-			    	<h2>Uma nova abordagem ao jornalismo cultural</h2>
+			    	<h1>Uma revista cultural independente e digital</h1>
 			    	<!-- <p>Fazer jornalismo cultural desvinculado dos interesses da mídia hegemônica, divulgar conteúdo relevante muitas vezes ignorado pela grande imprensa e pôr em prática, em um formato próprio, aquilo que se aprende na faculdade. Esses foram os ingredientes básicos que, misturados, deram origem à massa do bolo que é a Revista Na Cuia.</p> -->
-			    	<p>Como revista de jornalismo cultural, a Na Cuia explora movimentos, eventos e histórias do cenário artístico paraense. Desde janeiro de 2015, a publicação eletrônica procura abordar assuntos de interesse público, dando prioridade aos que não são amplamente divulgados na grande mídia, ou utilizar uma abordagem diferenciada para os temas mais debatidos.</p>
+			    	<p>A revista Na Cuia explora movimentos, eventos e histórias do cenário artístico paraense. Desde 2015, a publicação eletrônica procura abordar assuntos de interesse público, dando prioridade aos que não são amplamente divulgados na grande mídia, utilizando uma abordagem diferenciada para os temas mais debatidos.</p>
 			    	<a href="#revista" class="button">Ler a Revista</a>
 				</div>
 			</div>
 
 		</div>
+
 	<div class="borda-marajoara-bottom-acai"></div>
 
 	</div>
 
-
-
 	</section>
 
 
+	<section id="revista" class="full-screen bg-acai">
 
+	    <div class="screen-container">
 
+			<h2 class="clr-ama">Revista</h2>
+			<p class="clr-ama">Leia agora a última edição da Na Cuia.</p>
 
-
-
-	    <section id="revista" class="full-screen bg-acai">
-
-		<div class="screen-container">
-
-<!-- 		<div class="mag">
+			<!-- <div class="mag">
 
 			<div>
-				<div class="magazine">
+				<div class="maga">
 					<h1>Revista Cultural Na Cuia</h1>
 				</div>
 			</div>
-			
-			<div>
-				<div class="home-container"> 
 
-		    		
-			    	<p>Fazer jornalismo cultural desvinculado dos interesses da mídia hegemônica, divulgar conteúdo relevante muitas vezes ignorado pela grande imprensa e pôr em prática, em um formato próprio, aquilo que se aprende na faculdade. Esses foram os ingredientes básicos que, misturados, deram origem à massa do bolo que é a Revista Na Cuia.</p>
-				</div>
-			</div>
+	    	</div> -->
 
-			</div>
-
-	    </div> -->
-
-
-	    	<a href="https://issuu.com/nacuia/docs/nacuia_12__281_29" target="_blank" class="featured">
+			<!-- <a href="https://issuu.com/nacuia/docs/nacuia_12__281_29" target="_blank" class="featured">
 				<div></div> <figure style="background-image: url('images/editions/12.png');"></figure>
 				<span class="margin-top">12º Edição</span>
 				<h3>Outra Educação</h3>
@@ -156,22 +138,28 @@
 				<span>ABC: movimento transformador</span>
 				<span>Educomunicação</span>
 				<span>Ainda sem poesia</span>
-			</a>
+			</a> -->
+    		
+			<div data-configid="0/38808917" class="issuuembed"></div>
 
-	    </section>
+		</div>
+		    
+	</section>
 
 
-	   	<section id="edicoes" class="bg-acai">
+	<section id="edicoes" class="bg-tucupi">
 
-	    	<h3 class="clr-ama">Edições</h3>
-			<h4 class="clr-white">Confira na íntegra todas as edições da revista.</h4>
+	   	<h2 class="clr-acai">Edições</h2>
+		<p class="clr-acai">Confira na íntegra todas as edições da revista.</p>
+
+		<div class="magazine">
 
 			<div class="tile">
 				<a href="https://issuu.com/nacuia/docs/nacuia_12__281_29" target="_blank">
 					<span>12º Edição</span>
 					<h5>Outra Educação</h5>
 				</a>
-				<figure style="background-image: url('images/editions/12.png');"></figure>
+				<figure style="background-image: url('images/editions/12_mini.jpg');"></figure>
 			</div> 
 
 			<div class="tile">
@@ -179,7 +167,7 @@
 					<span>11º Edição</span>
 					<h5>400 em 1</h5>
 				</a>
-				<figure style="background-image: url('images/editions/11.png');"></figure>
+				<figure style="background-image: url('images/editions/11_mini.jpg');"></figure>
 			</div> 
 
 
@@ -188,7 +176,7 @@
 					<span>10º Edição</span>
 					<h5>Consciência Negra</h5>
 				</a>
-				<figure style="background-image: url('images/editions/10.png');"></figure>
+				<figure style="background-image: url('images/editions/10_mini.jpg');"></figure>
 			</div> 
 
 			<div class="tile">
@@ -196,7 +184,7 @@
 					<span>9º Edição</span>
 					<h5>Círio</h5>
 				</a>
-				<figure style="background-image: url('images/editions/09_mini.png');"></figure>
+				<figure style="background-image: url('images/editions/09_mini.jpg');"></figure>
 			</div> 
 
 			<div class="tile">
@@ -263,101 +251,12 @@
 				<figure style="background-image: url('images/editions/01_mini.jpg');"></figure>
 			</div>
 
-			<div>
+		</div>
 
-<!-- 				<a href="http://issuu.com/nacuia" target="_blank" class="button">Ver Todas Edições</a> -->
-
-			</div>
+	</section>
 
 
-	    </section>
-
-	    <section id="equipe" class="bg-img">
-
-			<h3 class="clr-acai">Equipe</h3>
-
-			<p class="clr-acai">O corpo editorial da Na Cuia é composto por estudantes do curso de Comunicação Social da Universidade Federal do Pará, tanto de Jornalismo quanto de Publicidade e Propaganda.</p>
-
-		<div class="container-people">
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div><p>Chefe de Redação / Repórter</p></div>
-				</a>
-				<figure style="background-image: url(images/people/matheus.jpg);"></figure>
-				<h4>Matheus Botelho</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div> <p>Editora-Chefe / Repórter</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/vitoria.jpg);"></figure>
-				<h4>Vitória Mendes</h4>
-			</div>
-
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div>  <p>Planejamento de Comunicação</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/mariana.jpg);"></figure>
-				<h4>Mariana Guimarães</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div> <p>Arte</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/livia.jpg);"></figure>
-				<h4>Lívia Fialho</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div>  <p>Direção de Fotografia / Repórter</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/bianca.jpg);"></figure>
-				<h4>Bianca Brandão</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div>  <p>Repórter / Fotógrafa</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/madylene.jpg);"></figure>
-				<h4>Madylene Barata</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div> <p>Repórter</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/ana-paula.jpg);"></figure>
-				<h4>Ana Paula Castro</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div> <p>Audiovisual</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/neil.jpg);"></figure>
-				<h4>Neil York</h4>
-			</div>
-
-			<div class="people">
-				<a href="#equipe" class="people-bg">
-					<div> <p>Arte</p> </div>
-				</a>
-				<figure style="background-image: url(images/people/ps.jpg);"></figure>
-				<h4>PS Rodrigues</h4>
-			</div>
-
-			</div>
-
-	    </section>
-
-	    <section id="kuyera" class="full-screen bg-salinas">
+	<section id="kuyera" class="full-screen bg-salinas">
 
 	   	<div class="borda-marajoara-top"></div>
 
@@ -367,16 +266,19 @@
 
 			<div>
 		    	<div class="card kuyera-text">
-			    	<p>Ser uma revista digital e ter todas as ferramentas da internet à disposição proporciona diversas possibilidades de manter contato com o público. No entanto, a Na Cuia sabe que nada substitui uma conversa descontraída ao som de boa música e acompanhada de uma cerveja gelada.</p>
 
-					<p>E é assim que surge a Kuyera!, como momento de lançamento ou apresentação das edições da revista e como oportunidade de interação e troca de ideias entre o público da Na Cuia e o seu corpo editorial. Além disso, é também um evento de promoção cultural, que conta com participações de artistas de múltiplas áreas, como música, literatura, cinema, artes cênicas, visuais e plásticas.</p>
+		    		<div id="kuyera-logo"></div>
+
+			    	<p>Ser uma revista digital e ter todas as ferramentas da internet à disposição proporciona diversas possibilidades de manter contato com o público. No entanto, a Na Cuia sabe que nada substitui uma conversa descontraída ao som de boa música e acompanhada de uma cerveja gelada ;)</p>
+
+					<p>E assim surge a Kuyera! Como momento de lançamento ou apresentação das edições da revista e como oportunidade de interação e troca de ideias entre o público da Na Cuia e o seu corpo editorial. Um evento de promoção cultural, com participações de artistas de múltiplas áreas, como música, literatura, cinema, artes cênicas, visuais e plásticas.</p>
 		    	</div>
 	    	</div>
 
 	    	<div>
 		    	<div class="card">
-			    	<div id="kuyera-logo"></div>
 			    	<div id="selo"></div>
+			    	<span id="event">Nova edição em breve</span>
 		    	</div>
 	    	</div>
 
@@ -386,11 +288,138 @@
 
 	    </div>
 
-	    </section>
+	</section>
+
+
+	<section id="equipe" class="bg-manga">
+
+	    <div class="bg-cuia">
+
+			<h2 class="clr-acai">Equipe</h2>
+			<p class="clr-acai">O corpo editorial da Na Cuia é composto por estudantes do curso de Comunicação Social da Universidade Federal do Pará, tanto de Jornalismo quanto de Publicidade e Propaganda.</p>
+
+		<div class="people">
+
+			<div>
+				<a href="#equipe">
+					<p>Chefe de Redação / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/matheus.jpg);"></figure>
+				<h4>Matheus Botelho</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Editora-Chefe / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/vitoria.jpg);"></figure>
+				<h4>Vitória Mendes</h4>
+			</div>
+
+
+			<div>
+				<a href="#equipe">
+					<p>Planejamento de Comunicação</p>
+				</a>
+				<figure style="background-image: url(images/people/mariana.jpg);"></figure>
+				<h4>Mariana Guimarães</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Arte</p>
+				</a>
+				<figure style="background-image: url(images/people/livia.jpg);"></figure>
+				<h4>Lívia Fialho</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Direção de Fotografia / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/bianca.jpg);"></figure>
+				<h4>Bianca Brandão</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Repórter / Fotógrafa</p>
+				</a>
+				<figure style="background-image: url(images/people/madylene.jpg);"></figure>
+				<h4>Madylene Barata</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/ana-paula.jpg);"></figure>
+				<h4>Ana Paula Castro</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Audiovisual</p>
+				</a>
+				<figure style="background-image: url(images/people/neil.jpg);"></figure>
+				<h4>Neil York</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Arte</p>
+				</a>
+				<figure style="background-image: url(images/people/ps.jpg);"></figure>
+				<h4>PSRodrigues</h4>
+			</div>
+
+		</div>
+
+		</div>
+
+	</section>
+
+	<section class="bg-lima">
+
+	    <div class="bg-cuia">
+
+	    	<h2 class="clr-acai">Depoimentos</h2>
+			<p class="clr-acai">Aniversário de 1 ano da revista Na Cuia \o/</p>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/11Y2JMxzcZ0" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/yCcsl9COOwM" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/7fqy50jAOgI" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/xLPoi0vNfDw" frameborder="0" allowfullscreen></iframe>
+
+<!-- 			<div>
+				<a href="https://www.youtube.com/channel/UChu1pn0JcVpp3xfZRLXeSiA" class="button" target="_blank">Inscreva-se no YouTube</a>
+			</div> -->
+
+		</div>
+
+	</section>
+
+	<section class="bg-arara">
+
+	   	<h2 class="clr-acai">Últimas</h2>
+
+	    	<div class="twitter-embed">
+				<a class="twitter-timeline" data-chrome="noheader nofooter noauthor transparent" data-tweet-limit="3" data-height="420" href="https://twitter.com/revistanacuia"></a>
+			</div>
+
+			<div class="facebook-embed">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fnacuia&width=600&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId=262022607171531" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+
+	</section>
+
 
 	    <section id="contato" class="bg-img">
 	      
-	        <h3 class="clr-acai">Contato</h3>
+	        <h2 class="clr-acai">Contato</h2>
 	        <p class="clr-acai">Mande sugestões, dicas e críticas para Na Cuia. Nós queremos te ouvir!</p>
 	    
 		    <form role="form" action="//formspree.io/nacuiarevistacultural@gmail.com" method="POST">
@@ -406,7 +435,7 @@
 
 		<!-- <section id="social" class="bg-acai">
 	      
-	        <h3 class="clr-ama">Conect-se!</h3>
+	        <h2 class="clr-ama">Conect-se!</h2>
 	        <p class="clr-white">Fique por dentro das últimas novidades da Revista Cultural Na Cuia!</p>
 	       
 	    </section> -->
@@ -421,10 +450,11 @@
     	<div class="icon">
     		<a href="https://www.facebook.com/nacuia" class="facebook" target="_blank">Facebook</a>
 			<a href="https://twitter.com/revistanacuia" class="twitter" target="_blank">Twitter</a>
-			<a href="https://instagram.com/revistanacuia" class="instagram" target="_blank">Instagram</a>
+			<a href="https://www.instagram.com/revistanacuia/" class="instagram" target="_blank">Instagram</a>
 			<a href="https://www.snapchat.com/add/revistanacuia" class="snapchat" target="_blank">Snapchat</a>
 			<a href="https://www.youtube.com/channel/UChu1pn0JcVpp3xfZRLXeSiA" class="youtube" target="_blank">YouTube</a>
-			<a href="http://flickr.com/nacuia" class="flickr" target="_blank">Flickr</a>
+			<a href="https://www.flickr.com/photos/nacuia" class="flickr" target="_blank">Flickr</a>
+			<a href="https://issuu.com/nacuia" class="issuu" target="_blank">Issuu</a>
 		</div>
 
 		<ul>
@@ -440,13 +470,15 @@
 
     </footer>
 
+	<script type="text/javascript" src="scripts/issuu-embed.js" async="true"></script>
+    <!-- Original <script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script> -->
+ 	<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/scroll.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/header.js"></script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="scripts/scroll.js"></script>
-	<script src="scripts/header.js"></script>
-
-    <!-- Google Analytics 
-	<script>
+<!-- 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -455,9 +487,7 @@
 	  ga('create', 'UA-68116299-1', 'auto');
 	  ga('send', 'pageview');
 
-	</script>
-
-	-->
+	</script> -->
 
 </body>
 

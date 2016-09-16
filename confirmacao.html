@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Mensagem Enviada – Na Cuia</title>
-    <meta http-equiv="refresh" content="28; url=index.html">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="shortcut icon" href="images/favicon.png">
+  
+  <meta http-equiv="refresh" content="28; url=index.html">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="shortcut icon" href="images/favicon.png">
 </head>
     
 <body>
 
-    <header role="banner">
+  <header role="banner" id="header">
 
-        <h1><a href="index.html"><figure></figure>Na Cuia</a></h1>
+      <a href="index.html" id="logo" title="Revista Na Cuia"></a>
 
-    </header>
+      <button id="menu-button" onclick="openMenu();"></button>
 
-    <section class="special-page bg-acai">
+      <div class="layer-menu" class="close" onclick="closeMenu();">
+        <nav role="navigation">
+          <button id="close-button" class="close" onclick="closeMenu();"></button>
+            <ul>
+              <li><a href="index.html#revista" class="close" onclick="closeMenu();">Revista</a></li>
+              <li><a href="index.html#edicoes" class="close" onclick="closeMenu();">Edições</a></li>
+                <li><a href="index.html#kuyera" class="close" onclick="closeMenu();">Kuyera!</a></li>
+                <li><a href="index.html#equipe" class="close" onclick="closeMenu();">Equipe</a></li>
+                <li><a href="index.html#contato" class="close" onclick="closeMenu();">Contato</a></li>
+            </ul>
+        </nav>
+      </div>
+      
+  </header>
 
-        <h4 id="counter"></h4>
 
-        <h5>Pai D'égua!</h5>
+  <section class="full-screen bg-ama">
 
-		<h4>Mensagem Enviada</h4>
+    <div class="screen-container">
 
-        <h3>Sua mensagem foi enviada com sucesso! </h3>
+      <div class="alert">
 
-        <a href="index.html" class="btn-more">Voltar</a>
-        
-    </section>
+        <span id="counter"></span>
 
-    <script src="scripts/counter.js"></script>
+        <h1>Pai D'égua!</h1>
+        <p>Sua mensagem foi enviada com sucesso!</p>
 
-    <!-- Google Analytics -->
-    <script>
+        <a href="index.html" class="button">Voltar</a>
+
+      </div>
+
+      <div class="borda-marajoara-bottom-acai"></div>
+
+    </div>
+
+  </section>
+
+  <script type="text/javascript" src="scripts/counter.js"></script>
+  <script type="text/javascript" src="scripts/menu.js"></script>
+  <script type="text/javascript" src="scripts/header.js"></script>
+
+<!--  <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -45,7 +70,7 @@
       ga('create', 'UA-68116299-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
+    </script> -->
 
 </body>
 
