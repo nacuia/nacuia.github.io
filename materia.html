@@ -1,0 +1,536 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@nacuia 
+1
+00nacuia/nacuia.github.io
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
+nacuia.github.io/index.html
+@lucasmezs lucasmezs catarina
+32905aa on 17 Oct 2016
+@nacuia@lucasmezs
+511 lines (382 sloc)  17.7 KB
+  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Na Cuia – Revista Cultural</title>
+  	<meta name="description" content="Site oficial da Revista Cultural Na Cuia. Divulgando a cultura paraense!">
+  	<meta name="keywords" content="revista, na cuia, ufpa, cultura, site, pará, belém">
+  	<meta name="author" content="Revista Na Cuia">
+
+  	<link href="styles/main.css" rel="stylesheet" type="text/css">
+  	<link href="styles/header.css" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Chrome - Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/chrome-touch-icon.png">
+    <meta name="theme-color" content="#3D0626">
+
+    <!-- Safari - iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Revista Na Cuia">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- IE / Edge - Windows -->
+    <meta name="application-name" content="Revista Na Cuia">
+    <meta name="msapplication-TileImage" content="images/ms-touch-icon.png">
+	<meta name="msapplication-TileColor" content="#3D0626">
+
+    <!-- Facebook / Open Graph -->
+    <meta property="fb:admins" content="768019673235719">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://nacuia.com.br/">
+	<meta property="og:title" content="Revista Cultural Na Cuia">
+	<meta property="og:site_name" content="Na Cuia – Revista Cultural">
+	<meta property="og:image" content="http://nacuia.com.br/images/social.png">
+	<meta property="og:description" content="Site da Revista Cultural Na Cuia. Acesse todas as edições na íntegra. Experimente uma abordagem alternativa da cultura paraense.">
+
+    <!-- Google+ / Schema.org -->
+    <meta itemprop="name" content="Revista Cultural Na Cuia">
+	<meta itemprop="description" content="Site oficial da Revista Cultural Na Cuia. Acesse todas as edições da revista na íntegra. E experimente uma abordagem moderna e alternativa da cultura paraense.">
+	<meta itemprop="image" content="http://nacuia.com.br/images/social.png">
+	<link rel="publisher" href="https://plus.google.com/104062564533482977537"/>
+	
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@revistanacuia">
+	<meta name="twitter:title" content="Revista Cultural Na Cuia">
+	<meta name="twitter:description" content="Acesse na íntegra as edições da Revista Cultural Na Cuia. E experimente uma abordagem moderna e alternativa da cultura paraense.">
+	<meta property="twitter:image:src" content="http://nacuia.com.br/images/social.png">
+
+	<script src="scripts/headroom.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <header role="banner" id="header">
+
+        <a href="#inicio" id="logo" title="Revista Na Cuia"></a>
+
+        <button id="menu-button" onclick="openMenu();"></button>
+        <button id="share-button" onclick="openShare();"></button>
+
+		<div class="layer-menu" class="close" onclick="closeMenu();">
+	        <nav role="navigation">
+	        	<button id="close-button" class="close" onclick="closeMenu();"></button>
+	            <ul>
+	            	<li><a href="#revista" class="close" onclick="closeMenu();">Revista</a></li>
+	 	            <li><a href="#edicoes" class="close" onclick="closeMenu();">Edições</a></li>
+	                <li><a href="#kuyera" class="close" onclick="closeMenu();">Kuyera!</a></li>
+	                <li><a href="#equipe" class="close" onclick="closeMenu();">Equipe</a></li>
+	                <li><a href="#contato" class="close" onclick="closeMenu();">Contato</a></li>
+	            </ul>
+	        </nav>
+        </div>
+        
+    </header>
+
+	<main role="main">
+
+
+	<section id="inicio" class="full-screen bg-ama">
+
+	<div class="screen-container">
+
+		<div class="home">
+
+			<div>
+				<img src="images/na-cuia-logo.svg" alt="logo revista cultural na cuia">
+			</div>
+			
+			<div>
+				<div class="home-container"> 
+			    	<h1>Uma revista cultural independente e digital</h1>
+			    	<!-- <p>Fazer jornalismo cultural desvinculado dos interesses da mídia hegemônica, divulgar conteúdo relevante muitas vezes ignorado pela grande imprensa e pôr em prática, em um formato próprio, aquilo que se aprende na faculdade. Esses foram os ingredientes básicos que, misturados, deram origem à massa do bolo que é a Revista Na Cuia.</p> -->
+			    	<p>A revista Na Cuia explora movimentos, eventos e histórias do cenário artístico paraense. Desde 2015, a publicação eletrônica procura abordar assuntos de interesse público, dando prioridade aos que não são amplamente divulgados na grande mídia, utilizando uma abordagem diferenciada para os temas mais debatidos.</p>
+			    	<a href="#revista" class="button">Ler a Revista</a>
+				</div>
+			</div>
+
+		</div>
+
+	<div class="borda-marajoara-bottom-acai"></div>
+
+	</div>
+
+	</section>
+
+
+	<section id="revista" class="full-screen bg-acai">
+
+	    <div class="screen-container">
+
+			<h2 class="clr-ama">Revista</h2>
+			<p class="clr-ama">Leia agora a última edição da Na Cuia.</p>
+
+			<!-- <div class="mag">
+			<div>
+				<div class="maga">
+					<h1>Revista Cultural Na Cuia</h1>
+				</div>
+			</div>
+	    	</div> -->
+
+			<!-- <a href="https://issuu.com/nacuia/docs/nacuia_12__281_29" target="_blank" class="featured">
+				<div></div> <figure style="background-image: url('images/editions/12.png');"></figure>
+				<span class="margin-top">12º Edição</span>
+				<h3>Outra Educação</h3>
+				<span>O cárcere escolar e a sistematização do ensino</span>
+				<span>Lúdico e aprendizagem</span>
+				<span>ABC: movimento transformador</span>
+				<span>Educomunicação</span>
+				<span>Ainda sem poesia</span>
+			</a> -->
+    		
+			<div data-configid="0/38900313" class="issuuembed"></div>
+
+		</div>
+		    
+	</section>
+
+
+	<section id="edicoes" class="bg-tucupi">
+
+	   	<h2 class="clr-acai">Edições</h2>
+		<p class="clr-acai">Confira na íntegra todas as edições da revista.</p>
+
+		<div class="magazine">
+
+			<div class="tile">
+				<a href="https://issuu.com/nacuia/docs/nacuia_set2016" target="_blank">
+					<span>13º Edição</span>
+					<h5>Dossiê Sistema Municipal de Cultura</h5>
+				</a>
+				<figure style="background-image: url('images/editions/13_mini.jpg');"></figure>
+			</div> 
+
+			<div class="tile">
+				<a href="https://issuu.com/nacuia/docs/nacuia_12__281_29" target="_blank">
+					<span>12º Edição</span>
+					<h5>Outra Educação</h5>
+				</a>
+				<figure style="background-image: url('images/editions/12_mini.jpg');"></figure>
+			</div> 
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/nacuia11" target="_blank">
+					<span>11º Edição</span>
+					<h5>400 em 1</h5>
+				</a>
+				<figure style="background-image: url('images/editions/11_mini.jpg');"></figure>
+			</div> 
+
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/edi____o_10" target="_blank">
+					<span>10º Edição</span>
+					<h5>Consciência Negra</h5>
+				</a>
+				<figure style="background-image: url('images/editions/10_mini.jpg');"></figure>
+			</div> 
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/edi____o_9" target="_blank">
+					<span>9º Edição</span>
+					<h5>Círio</h5>
+				</a>
+				<figure style="background-image: url('images/editions/09_mini.jpg');"></figure>
+			</div> 
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/8edition" target="_blank">
+					<span>8º Edição</span>
+					<h5>Belém em Cena</h5>
+				</a>
+				<figure style="background-image: url('images/editions/08_mini.jpg');"></figure>
+			</div> 
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/nacuia7edicao" target="_blank">
+					<span>7º Edição</span>
+					<h5>Arte e Resitência</h5>
+				</a>
+				<figure style="background-image: url('images/editions/07_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/nacuia6_7be0507f793bc6" target="_blank">
+				<span>6º Edição</span>
+				<h5>Amazônia fora da caixa</h5>
+				</a>
+				<figure style="background-image: url('images/editions/06_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/quintaedi____o" target="_blank">
+					<span>5º Edição</span>
+					<h5>A Voz Delas</h5>
+				</a>
+				<figure style="background-image: url('images/editions/05_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/quartaedi____onacuia" target="_blank">
+					<span>4º Edição</span>
+					<h5>Juventude Criativa</h5>
+				</a>
+				<figure style="background-image: url('images/editions/04_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/terceira_edi____o_na_cuia" target="_blank">
+					<span>3º Edição</span>
+					<h5>Fundação Cultural do Pará</h5>
+				</a>
+				<figure style="background-image: url('images/editions/03_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://issuu.com/nacuia/docs/segundaedi____onacuia" target="_blank">
+					<span>2º Edição</span>
+					<h5>Cultura na Rua</h5>
+				</a>
+				<figure style="background-image: url('images/editions/02_mini.jpg');"></figure>
+			</div>
+
+			<div class="tile">
+				<a href="http://www.youblisher.com/p/1054704-NA-CUIA-EDICAO-1/" target="_blank">
+					<span>1º Edição</span>
+					<h5>Carimbó</h5>
+				</a>
+				<figure style="background-image: url('images/editions/01_mini.jpg');"></figure>
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section id="kuyera" class="full-screen bg-salinas">
+
+	   	<div class="borda-marajoara-top"></div>
+
+	   	<div class="screen-container">
+	        
+		<div class="home">
+
+			<div>
+		    	<div class="card kuyera-text">
+
+		    		<div id="kuyera-logo"></div>
+
+			    	<p>Ser uma revista digital e ter todas as ferramentas da internet à disposição proporciona diversas possibilidades de manter contato com o público. No entanto, a Na Cuia sabe que nada substitui uma conversa descontraída ao som de boa música e acompanhada de uma cerveja gelada ;)</p>
+
+					<p>E assim surge a Kuyera! Como momento de lançamento ou apresentação das edições da revista e como oportunidade de interação e troca de ideias entre o público da Na Cuia e o seu corpo editorial. Um evento de promoção cultural, com participações de artistas de múltiplas áreas, como música, literatura, cinema, artes cênicas, visuais e plásticas.</p>
+		    	</div>
+	    	</div>
+
+	    	<div>
+		    	<div class="card">
+			    	<div id="selo"></div>
+			    	<span id="event">Nova edição em breve</span>
+		    	</div>
+	    	</div>
+
+	    </div>
+
+	    	<div class="borda-marajoara-bottom"></div>
+
+	    </div>
+
+	</section>
+
+
+	<section id="equipe" class="bg-manga">
+
+	    <div class="bg-cuia">
+
+			<h2 class="clr-acai">Equipe</h2>
+			<p class="clr-acai">O corpo editorial da Na Cuia é composto por estudantes do curso de Comunicação Social da Universidade Federal do Pará, tanto de Jornalismo quanto de Publicidade e Propaganda.</p>
+
+		<div class="people">
+
+			<div>
+				<a href="#equipe">
+					<p>Chefe de Redação / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/matheus.jpg);"></figure>
+				<h4>Matheus Botelho</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Editora-Chefe / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/vitoria.jpg);"></figure>
+				<h4>Vitória Mendes</h4>
+			</div>
+
+
+			<div>
+				<a href="#equipe">
+					<p>Planejamento de Comunicação</p>
+				</a>
+				<figure style="background-image: url(images/people/mariana.jpg);"></figure>
+				<h4>Mariana Guimarães</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Direção de Arte</p>
+				</a>
+				<figure style="background-image: url(images/people/livia.jpg);"></figure>
+				<h4>Lívia Fialho</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Direção de Fotografia / Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/bianca.jpg);"></figure>
+				<h4>Bianca Brandão</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Repórter / Fotógrafa</p>
+				</a>
+				<figure style="background-image: url(images/people/madylene.jpg);"></figure>
+				<h4>Madylene Barata</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Repórter</p>
+				</a>
+				<figure style="background-image: url(images/people/ana-paula.jpg);"></figure>
+				<h4>Ana Paula Castro</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Audiovisual</p>
+				</a>
+				<figure style="background-image: url(images/people/neil.jpg);"></figure>
+				<h4>Neil York</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Direção de Criação</p>
+				</a>
+				<figure style="background-image: url(images/people/ps.jpg);"></figure>
+				<h4>PSRodrigues</h4>
+			</div>
+
+			<div>
+				<a href="#equipe">
+					<p>Diagramação</p>
+				</a>
+				<figure style="background-image: url(images/people/catarina.jpg);"></figure>
+				<h4>Catarina Nefertari</h4>
+			</div>
+
+		</div>
+
+		</div>
+
+	</section>
+
+	<section class="bg-lima">
+
+	    <div class="bg-cuia">
+
+	    	<h2 class="clr-acai">Depoimentos</h2>
+			<p class="clr-acai">Aniversário de 1 ano da revista Na Cuia \o/</p>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/11Y2JMxzcZ0" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/yCcsl9COOwM" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/7fqy50jAOgI" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="youtube-embed" src="https://www.youtube.com/embed/xLPoi0vNfDw" frameborder="0" allowfullscreen></iframe>
+
+<!-- 			<div>
+				<a href="https://www.youtube.com/channel/UChu1pn0JcVpp3xfZRLXeSiA" class="button" target="_blank">Inscreva-se no YouTube</a>
+			</div> -->
+
+		</div>
+
+	</section>
+
+	<section class="bg-arara">
+
+	   	<h2 class="clr-acai">Últimas</h2>
+
+	    	<div class="twitter-embed">
+				<a class="twitter-timeline" data-chrome="noheader nofooter noauthor transparent" data-tweet-limit="3" data-height="420" href="https://twitter.com/revistanacuia"></a>
+			</div>
+
+			<div class="facebook-embed">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fnacuia&width=600&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId=262022607171531" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+
+	</section>
+
+
+	    <section id="contato" class="bg-img">
+	      
+	        <h2 class="clr-acai">Contato</h2>
+	        <p class="clr-acai">Mande sugestões, dicas e críticas para Na Cuia. Nós queremos te ouvir!</p>
+	    
+		    <form role="form" action="//formspree.io/nacuiarevistacultural@gmail.com" method="POST">
+		        <input type="text" name="name" placeholder="NOME" required/>
+		        <input type="email" name="_replyto" placeholder="EMAIL" required/>
+		        <textarea name="text" placeholder="MENSAGEM" required></textarea>
+		        <input type="submit" value="ENVIAR"/>
+		        <input type="hidden" name="_next" value="confirmacao.html" />
+		        <input type="text" name="_gotcha" style="display:none"/>
+		    </form>
+	        
+	    </section>
+
+		<!-- <section id="social" class="bg-acai">
+	      
+	        <h2 class="clr-ama">Conect-se!</h2>
+	        <p class="clr-white">Fique por dentro das últimas novidades da Revista Cultural Na Cuia!</p>
+	       
+	    </section> -->
+
+  	</main>
+  	
+
+    <footer role="contentinfo" class="bg-acai">
+
+    	<a href="#" class="logo"></a>
+
+    	<div class="icon">
+    		<a href="https://www.facebook.com/nacuia" class="facebook" target="_blank">Facebook</a>
+			<a href="https://twitter.com/revistanacuia" class="twitter" target="_blank">Twitter</a>
+			<a href="https://www.instagram.com/revistanacuia/" class="instagram" target="_blank">Instagram</a>
+			<a href="https://www.snapchat.com/add/revistanacuia" class="snapchat" target="_blank">Snapchat</a>
+			<a href="https://www.youtube.com/channel/UChu1pn0JcVpp3xfZRLXeSiA" class="youtube" target="_blank">YouTube</a>
+			<a href="https://www.flickr.com/photos/nacuia" class="flickr" target="_blank">Flickr</a>
+			<a href="https://issuu.com/nacuia" class="issuu" target="_blank">Issuu</a>
+		</div>
+
+		<ul>
+    		<li><a href="#revista" accesskey="r">Revista</a></li>
+	   		<li><a href="#edicoes" accesskey="e">Edições</a></li>
+	   		<li><a href="#kuyera" accesskey="k">Kuyera!</a></li>
+	   		<li><a href="#equipe" accesskey="s">Equipe</a></li>
+	   		<li><a href="#contato" accesskey="c">Contato</a></li>
+	    	<li><a href="#legal" accesskey="l">Legal</a></li>
+	    </ul>
+
+		<p>&copy; 2016 Revista Cultural Na Cuia</p>
+
+    </footer>
+
+	<script type="text/javascript" src="scripts/issuu-embed.js" async="true"></script>
+    <!-- Original <script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script> -->
+ 	<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/scroll.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/header.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-68116299-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
