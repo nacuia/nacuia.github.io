@@ -1,0 +1,50 @@
+
+.fundo {
+    background-image: linear-gradient( rgba(255,255,255,.7) 0%,rgba(255,255,255,.7) 100%), url("images/detran-pa-departamento-de-transito-do-estado-do-para-696x544.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 3; /* controla a opacidade da imagem */
+    
+    background-size: 100%;
+    
+}
+
+
+.fundo2 {
+    background-image: linear-gradient( rgba(255,255,255,.7) 0%,rgba(255,255,255,.7) 100%), url("../img/core-img/artemarajo.jpg");
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* controla a opacidade da imagem */
+    background-size: 100%;
+    
+}
+
+
+
+.fundo3 {
+    background-image: linear-gradient( rgba(255,255,255,.7) 0%,rgba(255,255,255,.7) 100%), url("images/detran_fundo2.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 3; /* controla a opacidade da imagem */
+    background-size: 100%;
+    
+    background-size: 100%;
+}
+
+.topo {
+    background-image: url("images/texto_detran2.png");
+    position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 40px;
+}

@@ -1,0 +1,25 @@
+﻿.carousel-control {
+    left: -12px;
+}
+
+    .carousel-control.right {
+        right: -12px;
+    }
+
+.blog .carousel-indicators {
+    right: 50%;
+    top: auto;
+    color:white;
+
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+    /* The colour of the indicators */
+    .blog .carousel-indicators li {
+        background: #ffffff;
+    }
+
+    .blog .carousel-indicators .active {
+        background: #ffffff;
+    }
