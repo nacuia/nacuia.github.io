@@ -237,6 +237,7 @@ img {
         width: 26px;
         height: 26px;
         cursor: pointer;
+        color: white;
         position: relative
     }
 
@@ -265,7 +266,7 @@ img {
 
 .classy-navbar-toggler {
     border: none;
-    background-color: transparent;
+    background-color: #3D0626;
     cursor: pointer;
     display: none
 }
@@ -277,7 +278,7 @@ img {
 
         .classy-navbar-toggler .navbarToggler span {
             position: relative;
-            background-color: #858585;
+            background-color: white;
             border-radius: 3px;
             display: block;
             height: 3px;
@@ -302,6 +303,7 @@ img {
         .classy-navbar-toggler .navbarToggler.active span:nth-of-type(3) {
             -webkit-transform: rotate3d(0,0,1,-45deg);
             transform: rotate3d(0,0,1,-45deg);
+             background-color: #3D0626;
             top: -8px
         }
 
@@ -310,7 +312,7 @@ img {
     width: 100%;
     left: 0;
     top: 100%;
-    background-color: #fff;
+    background-color: #3D0626;
     z-index: 200;
     box-shadow: 0 1px 4px rgba(0,0,0,.15)
 }
@@ -493,7 +495,7 @@ img {
 }
 
 .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #fff;
+    background-color: #3D0626;
     position: fixed;
     top: 0;
     left: -310px;
