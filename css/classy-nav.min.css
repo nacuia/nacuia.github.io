@@ -236,6 +236,7 @@ img {
     .classycloseIcon .cross-wrap {
         width: 26px;
         height: 26px;
+     
         cursor: pointer;
         color: white;
         position: relative
@@ -266,19 +267,21 @@ img {
 
 .classy-navbar-toggler {
     border: none;
-    background-color: #3D0626;
+    color:white;
+   
     cursor: pointer;
     display: none
 }
 
     .classy-navbar-toggler .navbarToggler {
-        display: inline-block;
+        color: white;
         cursor: pointer
     }
 
         .classy-navbar-toggler .navbarToggler span {
             position: relative;
-            background-color: white;
+            color: white;
+            background-color: #858585;
             border-radius: 3px;
             display: block;
             height: 3px;
@@ -303,7 +306,7 @@ img {
         .classy-navbar-toggler .navbarToggler.active span:nth-of-type(3) {
             -webkit-transform: rotate3d(0,0,1,-45deg);
             transform: rotate3d(0,0,1,-45deg);
-             background-color: #3D0626;
+            background-color: #3D0626;
             top: -8px
         }
 
