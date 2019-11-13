@@ -268,11 +268,11 @@ img {
     border: none;
     background-color: #3D0626;
     cursor: pointer;
-    display: none
+    display: block
 }
 
     .classy-navbar-toggler .navbarToggler {
-        display: inline-block;
+        display: block;
         cursor: pointer
     }
 
