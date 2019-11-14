@@ -10,7 +10,9 @@
     <!-- Title -->
     <title>Portal NaCuia</title>
     <link href="css/carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicon -->
+    <link href="css/navbarteste.css" rel="stylesheet" />
     <link href="css/hoverdot.css" rel="stylesheet" />
     <link href="css/videoresponsivo.css" rel="stylesheet" />
     <link rel="icon" href="img/core-img/nacuialogo.png">
@@ -25,115 +27,73 @@
 
 <body>
     <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
+    <header style="padding-bottom:50px;">
 
-
-
-        <!-- Navbar Area -->
-        <div class="viral-news-main-menu" id="stickyMenu" style="max-height:100px;opacity:unset;">
-            <div class="classy-nav-container breakpoint-off" style="background-color:#3D0626;max-height:60px;height: auto;">
-                <div class="container" style="padding-left:0px;">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" style="padding-left:0px;position:initial;" id="viralnewsNav">
-
-                        <!-- Logo -->
-                        <a class="nav-brand" href="index.html" style="padding-left:0px;margin-left:0px;">
-                            <img src="img/core-img/Marca-Branca.png" style="max-width:300px;
-                                height:250px;
+        <nav id="navHome" class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container-fluid max-width-940">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/core-img/Marca-Branca.png" style="width:200px;
+                                height:45px;
                                 padding-left:0px;
-                                padding-bottom:80px;padding-top:0px;padding-right:0px;position:center" alt="Logo">
-                        </a>
+                                padding-bottom:0px;padding-top:0px;padding-right:0px;position:center" alt="Logo">
+                </a>
+                <button class="navbar-toggler togglerNoBorder" style="color:white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
+                    <i class="fa fa-fw fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse backgroundWhite" id="navbarNavDropdown" style="color:white;padding-right:400px">
+                    <ul class="navbar-nav ml-auto">
 
-                        <!-- Menu -->
-                        <div class="classy-menu" style="padding-bottom:30px">
+                        <li class="nav-item">
+                            <a class="teste nav-link" style="color:white" href="equipe.html"><strong>QUEM SOMOS</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="teste nav-link" style="color:white" href="servicos.html"><strong>SERVIÇOS</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="teste nav-link" style="color:white" href="conteudodigital.html"><strong>CONTEÚDO DIGITAL</strong></a>
+                        </li>
 
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav" style="padding-top:10px;">
-                                <ul style="font-size:2px;padding-bottom:70px;padding-right:10px;width:800px;height:10px">
-                                    <li>
-                                        <a class="teste" href="equipe.html" style="color:white">QUEM SOMOS</a>
-
-                                    </li>
-                                    <li>
-                                        <a class="teste dropdown-item" href="servicos.html" style="color:white">SERVIÇOS</a>
-
-                                    </li>
-                                    <li>
-                                        <a class="teste" href="conteudodigital.html" style="color:white">CONTEÚDO DIGITAL</a>
-
-                                    </li>
-                                    <li class="nav-item drop-down" style="color:white;">
-                                        <a class="teste" aria-haspopup="true" aria-expanded="false" id="navbardrop" style="color:white;" data-toggle="">
-                                            PROJETOS
-                                        </a>
-                                        <div class="nav-link dropdown" style="background-color:#3D0626;">
-                                            <a class="teste dropdown-item" href="revista.html" style="color:white">REVISTA</a>
-                                            <a class="teste dropdown-item" href="Kuyera.html" style="color:white">KUYERA</a>
-
-                                        </div>
-                                    </li>
-
-                                    <li><a class="teste" href="podcast.html" style="color:white">PODCAST</a></li>
-
-
-                                </ul>
-
-                                <div class="social" style="padding-top:90px;width:100px;padding-right:10px;">
-                                    <div class="websure-social minimal">
-                                        <div class="websure-social-inner">
-
-                                            <div class="social-img-wrp websure-socialink prk_bordered websure-facebook">
-                                                <a href="https://www.facebook.com/nacuiaprodutora/" target="_blank">
-                                                    <span class="websure-facebook fa fa-facebook"></span>
-                                                    <span class="bg-shifter"><i class="fa fa-facebook"></i></span>
-                                                </a>
-                                            </div>
-                                            <div class="social-img-wrp websure-socialink prk_bordered websure-instagram">
-                                                <a href="https://www.instagram.com/nacuiaprodutora/" target="_blank">
-                                                    <span class="websure-instagram fa fa-instagram"></span>
-                                                    <span class="bg-shifter"><i class="fa fa-instagram"></i></span>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- Search Button -->
-                                <!--<div class="search-btn">
-                                    <i id="searchbtn" class="fa fa-search" style="color:white;" aria-hidden="true"></i>
-                                </div>-->
-                                <!-- Search Form -->
-                                <div class="viral-search-form">
-                                    <form id="search" action="#" method="get">
-                                        <input type="text" name="search-terms" placeholder="Enter your keywords ...">
-                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                    </form>
-                                </div>
-
-
+                        <li class="nav-item dropdown navDropdown" style="color:white;">
+                            <a class="teste nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <strong> PROJETOS</strong>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right navDropdown" style="background-color:#3D0626;color:white;" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="teste dropdown-item" style="color:white" href="works-on-display.html"><strong>REVISTA</strong></a>
+                                <a class="teste dropdown-item" style="color:white" href="poetry.html"><strong>KUYERA</strong></a>
 
                             </div>
-                            <!-- Nav End -->
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="podcast.html"><strong>PODCAST</strong></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="social" style="padding-top:100px;width:100px;padding-right:10px;">
+                    <div class="websure-social minimal">
+                        <div class="websure-social-inner">
+
+                            <div class="social-img-wrp websure-socialink prk_bordered websure-facebook">
+                                <a href="https://www.facebook.com/nacuiaprodutora/" target="_blank">
+                                    <span class="websure-facebook fa fa-facebook"></span>
+                                    <span class="bg-shifter"><i class="fa fa-facebook"></i></span>
+                                </a>
+                            </div>
+                            <div class="social-img-wrp websure-socialink prk_bordered websure-instagram">
+                                <a href="https://www.instagram.com/nacuiaprodutora/" target="_blank">
+                                    <span class="websure-instagram fa fa-instagram"></span>
+                                    <span class="bg-shifter"><i class="fa fa-instagram"></i></span>
+                                </a>
+                            </div>
 
                         </div>
-
-                    </nav>
-
+                    </div>
 
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- ##### Header Area End ##### -->
     <!-- ##### Hero Area Start ##### -->
@@ -263,7 +223,7 @@
                     <div class="single-blog-post style-3">
                         <!-- Post Thumb -->
                         <div class="embed-container-index">
-                            <iframe  src="https://www.youtube.com/embed/FRcTdwZRT6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/FRcTdwZRT6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <!-- Post Data -->
 
@@ -274,8 +234,8 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-blog-post style-3">
                         <!-- Post Thumb -->
-                        <div class="embed-container-index" >
-                            <iframe  src="https://www.youtube.com/embed/0SfpDp6JFdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="embed-container-index">
+                            <iframe src="https://www.youtube.com/embed/0SfpDp6JFdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <!-- Post Data -->
 
@@ -317,6 +277,19 @@
     </footer>
     <!-- ##### Footer Area Start ##### -->
     <script src="js/carousel.js"></script>
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
@@ -328,6 +301,7 @@
     <!-- All Plugins js -->
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
+    <script src="js/novonav.js"></script>
     <script src="js/active.js"></script>
 </body>
 
