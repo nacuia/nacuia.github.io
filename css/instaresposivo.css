@@ -1,8 +1,10 @@
-﻿embed-container2 {
-    max-height:1100px;
-    max-width:580px;
+embed-container2 {
+    min-height:500px;
+    max-height:1500px;
+    max-width:600px;
     min-width:180px;
-    height:1000px;
+   
+    padding-top:50%;
 }
 
 
