@@ -1,18 +1,18 @@
 .container2 {
     width: 100vw;
-    min-height: 163vh;
-    height: 175vh;
+    min-height: 80%;
+    height: 150vh;
     min-width: 40vw;
-    padding-bottom: 20%;
+    max-height:140vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
 }
 [style*="--aspect-ratio"] > :first-child {
-    width: 120%;
-   
-    justify-content: center;
+    width: 100%;
+     justify-content: center;
 }
 
 [style*="--aspect-ratio"] > img {
@@ -24,21 +24,21 @@
 @supports (--custom:property) {
     [style*="--aspect-ratio"] {
         position: relative;
-        height: 150vh;
+        height: 120vh;
     }
 
         [style*="--aspect-ratio"]::before {
             content: "";
-            height: 130vh;
+            height: 110vh;
             display: block;
-            padding-bottom: calc(120% / (var(--aspect-ratio)));
+            padding-bottom: calc(180% / (var(--aspect-ratio)));
         }
 
         [style*="--aspect-ratio"] > :first-child {
             position: absolute;
             top: 0;
-            height: 130vh
+            height: 170vh;
             left: 0;
-            height: 120%;
+            height: 180%;
         }
 }
