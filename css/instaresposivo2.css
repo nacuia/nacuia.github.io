@@ -1,10 +1,44 @@
 .container2 {
     width: 100vw;
-    height: 140vh;
-    min-height:120vh;
-    min-width:40vw;
+    min-height: 163vh;
+    height: 175vh;
+    min-width: 40vw;
+    padding-bottom: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
+}
+[style*="--aspect-ratio"] > :first-child {
+    width: 120%;
+   
+    justify-content: center;
+}
+
+[style*="--aspect-ratio"] > img {
+    height: auto;
+    justify-content: center;
+   
+}
+
+@supports (--custom:property) {
+    [style*="--aspect-ratio"] {
+        position: relative;
+        height: 150vh;
+    }
+
+        [style*="--aspect-ratio"]::before {
+            content: "";
+            height: 130vh;
+            display: block;
+            padding-bottom: calc(120% / (var(--aspect-ratio)));
+        }
+
+        [style*="--aspect-ratio"] > :first-child {
+            position: absolute;
+            top: 0;
+            height: 130vh
+            left: 0;
+            height: 120%;
+        }
 }
